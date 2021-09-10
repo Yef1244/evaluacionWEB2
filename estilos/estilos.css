@@ -102,7 +102,7 @@ header .logo p {
 	width: 100%;
 	height: auto;
 	display: flex;
-	background-color: #fff;
+	background-color: #efefef;
 	border-radius: 10px;
 	align-items: center;
 }
@@ -152,11 +152,36 @@ header .logo p {
 
 .boton {
 	border: none;
-	color: #333;
 	border-radius: 20px 20px 0px 0px;
-	padding: 0 10px;
-	font-size: 17px;
+	padding: 10px 15px 5px 15px;
+	margin: 0 5px;
 }
+
+.boton:hover {
+	background-color: rgb(204, 203, 203);
+	transition: background-color 1s;
+}
+
+/*--------------------------------------*/
+/*-----          BARRAS            -----*/
+/*--------------------------------------*/
+
+.desarrollador {
+	margin-top: 40px;
+	text-align: center;
+}
+.barras-progreso {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.barras-progreso label {
+	margin-top: 5px;
+	padding: 1px 40px;
+	text-align: center;
+}
+
+
 
 /*--------------------------------------*/
 /*-----          FOOTER            -----*/
@@ -185,6 +210,8 @@ header .logo p {
 	text-decoration: none;
 	color: #fff;
 }
+
+
 
 
 
