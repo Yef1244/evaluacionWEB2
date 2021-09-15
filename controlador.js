@@ -12,7 +12,7 @@ let parrafo2=document.getElementById("parrafo2")
 /*--------------------------------------*/
 
 function cambiarJuego(){
-    foto.src="img/gears.jpg"
+    foto.src="img/hobbie.jpg"
     titulo.textContent="Algunos de mis Hobbies"
     parrafo.textContent="Uno de ellos tiene conexión con mis ganas de programar, los videojuegos son mi hobby desde que tengo 10 años y fue gracias a mi padre que tenía un Xbox 360, empecé con juegos de accion sobre guerras y luego fui pasando a más variedades como aventura, sandbox, historias lineales, estrategicos."
     parrafo2.textContent="Pero ese no es mi unico hobby, también me gusta jugar futbol, ver freestyle (improvisación-batallas) y escuchar musica de cualquier genero aunque mi favorita es el RAP, Reggae junto con algunos clasicos de Reggaeton, estos hobbies han formado parte de mi vida y son causa de mi forma de ser hoy en día, incluso quiero comprar varios instrumentos musicales para practicar."
